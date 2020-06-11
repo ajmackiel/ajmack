@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include understanding the psychology behind social behavior, cooperation and coordination, social norms, and morality using the lenses of the evolutionary sciences, including evolutionary psychology and cultural evolution. 
-  matter.
+bio: My research interests include understanding the psychology behind social behavior, cooperation and coordination, social norms, and morality through the lens of the evolutionary sciences.
 education:
   courses:
   - course: M.S. in Psychological Sciences
