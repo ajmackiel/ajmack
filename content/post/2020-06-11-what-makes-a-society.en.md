@@ -26,11 +26,5 @@ In his book, [The Human Swarm](https://www.amazon.com/The-Human-Swarm-dp-1789544
 
 What constitutes a society is a group to which individuals are members and attach their identity...
 
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
+
 
