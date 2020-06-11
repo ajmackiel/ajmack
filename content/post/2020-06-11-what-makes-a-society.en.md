@@ -3,11 +3,11 @@ title: "What Makes a Society?"
 author: "Alexander Mackiel"
 date: '2020-06-11'
 categories: R
-featured: no
+featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/QqZqRN7iThY)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 lastmod: '2020-06-11T09:32:53-04:00'
 projects: []
 slug: what-makes-a-society
@@ -28,10 +28,9 @@ What constitutes a society is a group to which individuals are members and attac
 
 ```mermaid
 graph TD;
-  Society-->Identity;
-  Society-->Cooperation;
-  Identity-->Society;
-  Cooperation-->Society;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
-
 

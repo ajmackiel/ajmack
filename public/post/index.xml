@@ -22,10 +22,10 @@
 &lt;a href=&#34;https://www.amazon.com/The-Human-Swarm-dp-1789544297/dp/1789544297/ref=mt_paperback?_encoding=UTF8&amp;amp;me=&amp;amp;qid=&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Human Swarm&lt;/a&gt; biologist, Mark Moffett, argues that identity is the most central quality of society. He aptly compares and contrasts cooperation and identity as central elements of society, arguing that past researchers have wrongly elevated cooperation as the defining characteristic of society since many nonhuman animal groups cooperate with each other and yet do not constitute a society.&lt;/p&gt;
 &lt;p&gt;What constitutes a society is a group to which individuals are members and attach their identity&amp;hellip;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
-  Society--&amp;gt;Identity;
-  Society--&amp;gt;Cooperation;
-  Identity--&amp;gt;Society;
-  Cooperation--&amp;gt;Society;
+  A--&amp;gt;B;
+  A--&amp;gt;C;
+  B--&amp;gt;D;
+  C--&amp;gt;D;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
