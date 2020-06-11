@@ -1,48 +1,52 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
+bio: My research interests include understanding the psychology behind social behavior, cooperation and coordination, social norms, and morality using the lenses of the evolutionary sciences, including evolutionary psychology and cultural evolution. 
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: M.S. in Psychological Sciences
+    institution: State University of New York, New Paltz
+    year: 2019-2021
+  - course: B.A. in Psychology & English
+    institution: Carleton College
+    year: 2015-2019
+email: "mackiela1@hawkmail.newpaltz.edu"
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Evolutionary Psychology
+- Cultural Evolution
+- Human Behavioral Ecology
+- Social Psychology
+
 organizations:
-- name: Stanford University
+- name: State University of New York, New Paltz
   url: ""
-role: Professor of Artificial Intelligence
+role: Masters Student in Experimental Psychology
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/ajmackiel
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=nIg7ZN4AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/ajmackiel
 superuser: true
-title: Nelson Bighetti
+title: Alexander Mackiel
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a M.S. in Psychological Sciences student at SUNY New Paltz. I am also a Research Assistant for the Culture, Cognition, and Coevolution Lab at Harvard University in the Department of Human Evolutionary Biology. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I graduated from Carleton College with a B.A. in Psychology and English. There, I conducted research in a behavioral neuroscience lab studying motivation and reward in female rats. 
+
+At SUNY New Paltz I do research in the Evolutionary Psychology Lab and the Social Development Lab. I've also been a TA for Research Methods in Psychology, Psychology Statistics, and the Evolutionary Studies Seminar. 
+
+My research interests broadly span the topic of human evolutionary biology and cultural evolution. Most centrally I am interested in the evolutionary basis of human social behavior. I am interested in how culture, social norms, and morality function to produce and maintain cooperative and coordinated social behavior. 
+In addition to being an evolutionary behavioral scientist, I am interested in science writing and have written for online blogs and magazines. I have published articles in the popular online magazine, Quillette, as well as in Psychology Today about mind and behavior. 
