@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Research Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,39 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Culture, Cognition, and Coevolution Lab"
+  company = "Harvard University, Department of Human Evolutionary Biology"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = ""
+  date_start = "2020-05-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
   """
-
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Evolutionary Psychology Lab"
+  company = "State University of New York, New Paltz, Department of Psychology"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
+  location = ""
+  date_start = "2019-08-01"
+  date_end = ""
+  description = ""
+  
+[[experience]]
+  title = "Social Development Psychology Lab"
+  company = "State University of New York, New Paltz, Department of Psychology"
+  company_url = ""
+  location = ""
+  date_start = "2019-10-01"
+  date_end = ""
+  description = """
+  """
+[[experience]]
+  title = "Behavioral Neuroscience Lab"
+  company = "Carleton College, Department of Psychology"
+  company_url = ""
+  location = ""
+  date_start = "2017-01-01"
+  date_end = "2019-05-01"
+  description = """
+  """
 +++
