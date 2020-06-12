@@ -27,10 +27,10 @@ grViz("digraph {
   graph [layout = dot, rankdir = TB]
   
   node [shape = rectangle]        
-  rec1 [label = 'Step 1. Kiss my duck']
-  rec2 [label = 'Step 2. Ignore my duck']
-  rec3 [label =  'Step 3. GET OFF TIK TOK!']
-  rec4 [label = 'Step 4. Yell at her to eat something']
+  rec1 [label = 'Step 1.' ]
+  rec2 [label = 'Step 2.']
+  rec3 [label =  'Step 3.']
+  rec4 [label = 'Step 4.']
   
   # edge definitions with the node IDs
   rec1 -> rec2 -> rec3 -> rec4
