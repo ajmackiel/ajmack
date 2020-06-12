@@ -9,34 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ```{r}
-library(magrittr)
-# Create a common graph with nodes having
-# various `type` values; set to render
-# always using `visNetwork` when calling
-# `render_graph()`
 library(DiagrammeR)
-graph <-
-  create_graph() %>%
-  set_global_graph_attrs(
-    "graph", "output", "visNetwork") %>%
-  add_node("type_a", FALSE) %>%
-  add_n_nodes(4, "type_b") %>%
-  add_edge(1, 2) %>%
-  add_edge(1, 3) %>%
-  add_edge(4, 1) %>%
-  add_edge(5, 1) %>%
-  add_n_nodes(4, "type_c") %>%
-  add_edge(1, 6) %>%
-  add_edge(1, 7) %>%
-  add_edge(8, 1) %>%
-  add_edge(9, 1)
-
-# View the created graph
-render_graph(graph)
-```
-
-```{r}
+library(magrittr)
 mermaid("
 graph TB
   A-->B
