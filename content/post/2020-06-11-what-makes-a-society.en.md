@@ -19,6 +19,7 @@ tags:
 - cooperation
 authors: []
 ---
+![Unsplash](https://unsplash.com/photos/QqZqRN7iThY/download?force=true)Image credit: [**Unsplash**](https://unsplash.com/photos/QqZqRN7iThY)
 
 # Identity
 

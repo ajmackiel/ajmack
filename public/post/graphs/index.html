@@ -30,7 +30,7 @@
   <meta name="description" content="library(DiagrammeR) ## Warning: package &#39;DiagrammeR&#39; was built under R version 3.6.2 library(magrittr) mermaid(&quot; graph TB A--&gt;B A--&gt;C C--&gt;D B--&gt;D &quot;)  {&#34;">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexander-mackiel.netlify.app/post/graphs/">
+  <link rel="alternate" hreflang="en-us" href="/post/graphs/">
 
   
 
@@ -217,7 +217,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://alexander-mackiel.netlify.app/post/graphs/">
+  <link rel="canonical" href="/post/graphs/">
 
   
   
@@ -233,10 +233,10 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Alexander Mackiel">
-  <meta property="og:url" content="https://alexander-mackiel.netlify.app/post/graphs/">
+  <meta property="og:url" content="/post/graphs/">
   <meta property="og:title" content="Graphs | Alexander Mackiel">
-  <meta property="og:description" content="library(DiagrammeR) ## Warning: package &#39;DiagrammeR&#39; was built under R version 3.6.2 library(magrittr) mermaid(&quot; graph TB A--&gt;B A--&gt;C C--&gt;D B--&gt;D &quot;)  {&#34;"><meta property="og:image" content="https://alexander-mackiel.netlify.app/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://alexander-mackiel.netlify.app/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="library(DiagrammeR) ## Warning: package &#39;DiagrammeR&#39; was built under R version 3.6.2 library(magrittr) mermaid(&quot; graph TB A--&gt;B A--&gt;C C--&gt;D B--&gt;D &quot;)  {&#34;"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
     
@@ -263,7 +263,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alexander-mackiel.netlify.app/post/graphs/"
+    "@id": "/post/graphs/"
   },
   "headline": "Graphs",
   
@@ -280,7 +280,7 @@
     "name": "Alexander Mackiel",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://alexander-mackiel.netlify.app/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "library(DiagrammeR) ## Warning: package \u0026#39;DiagrammeR\u0026#39; was built under R version 3.6.2 library(magrittr) mermaid(\u0026quot; graph TB A--\u0026gt;B A--\u0026gt;C C--\u0026gt;D B--\u0026gt;D \u0026quot;)  {\""
@@ -375,6 +375,28 @@
 
       
       <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/about/"><span>About</span></a>
+        </li>
+
+        
         
 
         
@@ -599,7 +621,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -699,6 +721,36 @@ digraph boxes_and_circles {
 &quot;)</code></pre>
 <div id="htmlwidget-3" style="width:672px;height:480px;" class="grViz html-widget"></div>
 <script type="application/json" data-for="htmlwidget-3">{"x":{"diagram":"\ndigraph boxes_and_circles {\n\n  # a \"graph\" statement\n  graph [overlap = true, fontsize = 10]\n\n  # several \"node\" statements\n  node [shape = box,\n        fontname = Helvetica]\n  A; B; C; D; E; F\n\n  node [shape = circle,\n        fixedsize = true,\n        width = 0.9] // sets as circles\n  1; 2; 3; 4; 5; 6; 7; 8\n\n  # several \"edge\" statements\n  A->1 B->2 B->3 B->4 C->A\n  1->D E->A 2->4 1->5 1->F\n  E->6 4->6 5->7 6->7 3->8\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<pre class="r"><code>grViz(&quot; 
+digraph boxes_and_circles {
+
+  # a &#39;graph&#39; statement
+  graph [overlap = true, fontsize = 10]
+
+  # several &#39;node&#39; statements
+  node [shape = box,
+        fontname = Helvetica]
+
+
+  node [shape = circle,
+        fixedsize = true,
+        width = 0.9] // sets as circles
+  1; 2; 3; 4; 5; 6; 7; 8  A; B; C; D; E; F
+
+subgraph {
+rank = same; A; B; C; D; E; F
+}
+
+  # several &#39;edge&#39; statements
+ 
+  A -&gt; 1 B -&gt; 2 C -&gt; 3 D -&gt; 4 E -&gt; 5 F -&gt; 6
+
+1 -&gt; {7 8} 2 -&gt; {9 10} 3 -&gt; {11 12} 4 -&gt; {13 14} 5 -&gt; {15 16} 6 -&gt; {17 18}
+}
+
+&quot;)</code></pre>
+<div id="htmlwidget-4" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"diagram":" \ndigraph boxes_and_circles {\n\n  # a \"graph\" statement\n  graph [overlap = true, fontsize = 10]\n\n  # several \"node\" statements\n  node [shape = box,\n        fontname = Helvetica]\n\n\n  node [shape = circle,\n        fixedsize = true,\n        width = 0.9] // sets as circles\n  1; 2; 3; 4; 5; 6; 7; 8  A; B; C; D; E; F\n\nsubgraph {\nrank = same; A; B; C; D; E; F\n}\n\n  # several \"edge\" statements\n \n  A -> 1 B -> 2 C -> 3 D -> 4 E -> 5 F -> 6\n\n1 -> {7 8} 2 -> {9 10} 3 -> {11 12} 4 -> {13 14} 5 -> {15 16} 6 -> {17 18}\n}\n\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
     </div>
 
@@ -722,7 +774,7 @@ digraph boxes_and_circles {
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://alexander-mackiel.netlify.app/post/graphs/&amp;text=Graphs" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/graphs/&amp;text=Graphs" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -735,7 +787,7 @@ digraph boxes_and_circles {
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://alexander-mackiel.netlify.app/post/graphs/&amp;t=Graphs" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/graphs/&amp;t=Graphs" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -748,7 +800,7 @@ digraph boxes_and_circles {
       
       
       <li>
-        <a href="mailto:?subject=Graphs&amp;body=https://alexander-mackiel.netlify.app/post/graphs/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Graphs&amp;body=/post/graphs/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -761,7 +813,7 @@ digraph boxes_and_circles {
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://alexander-mackiel.netlify.app/post/graphs/&amp;title=Graphs" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/graphs/&amp;title=Graphs" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -774,7 +826,7 @@ digraph boxes_and_circles {
       
       
       <li>
-        <a href="whatsapp://send?text=Graphs%20https://alexander-mackiel.netlify.app/post/graphs/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Graphs%20/post/graphs/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -787,7 +839,7 @@ digraph boxes_and_circles {
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://alexander-mackiel.netlify.app/post/graphs/&amp;title=Graphs" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/graphs/&amp;title=Graphs" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -828,7 +880,7 @@ digraph boxes_and_circles {
       
 
       <div class="media-body">
-        <h5 class="card-title"><a href="https://alexander-mackiel.netlify.app/">Alexander Mackiel</a></h5>
+        <h5 class="card-title"><a href="/">Alexander Mackiel</a></h5>
         <h6 class="card-subtitle">Masters Student in Experimental Psychology</h6>
         <p class="card-text">My research interests include understanding the psychology behind social behavior, cooperation and coordination, social norms, and morality through the lens of the evolutionary sciences.</p>
         <ul class="network-icon" aria-hidden="true">
@@ -1046,6 +1098,16 @@ digraph boxes_and_circles {
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
   
 
   <p class="powered-by">
