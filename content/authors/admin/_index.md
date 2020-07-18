@@ -31,9 +31,7 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=nIg7ZN4AAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/ajmackiel
+
 superuser: true
 title: Alexander Mackiel
 user_groups:
