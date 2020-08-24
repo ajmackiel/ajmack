@@ -233,16 +233,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
   </url>
   
@@ -252,6 +242,10 @@
   
   <url>
     <loc>/post/graphs/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/conference-paper/</loc>
   </url>
   
 </urlset>

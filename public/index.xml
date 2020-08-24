@@ -795,26 +795,6 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -936,6 +916,14 @@ rank = same; A; B; C; D; E; F
 &lt;div id=&#34;htmlwidget-4&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;grViz html-widget&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-4&#34;&gt;{&#34;x&#34;:{&#34;diagram&#34;:&#34; \ndigraph boxes_and_circles {\n\n  # a \&#34;graph\&#34; statement\n  graph [overlap = true, fontsize = 10]\n\n  # several \&#34;node\&#34; statements\n  node [shape = box,\n        fontname = Helvetica]\n\n\n  node [shape = circle,\n        fixedsize = true,\n        width = 0.9] // sets as circles\n  1; 2; 3; 4; 5; 6; 7; 8  A; B; C; D; E; F\n\nsubgraph {\nrank = same; A; B; C; D; E; F\n}\n\n  # several \&#34;edge\&#34; statements\n \n  A -&gt; 1 B -&gt; 2 C -&gt; 3 D -&gt; 4 E -&gt; 5 F -&gt; 6\n\n1 -&gt; {7 8} 2 -&gt; {9 10} 3 -&gt; {11 12} 4 -&gt; {13 14} 5 -&gt; {15 16} 6 -&gt; {17 18}\n}\n\n&#34;,&#34;config&#34;:{&#34;engine&#34;:&#34;dot&#34;,&#34;options&#34;:null}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Mackiel, A. (2020). Tribalism. In Shackelford T., Weekes-Shackelford V. (eds). Encyclopedia of Evolutionary Psychological Science. Springer, Cham.</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -12,7 +12,7 @@ date: "2019-04-07T00:00:00Z"
 doi: ""
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit:
   focal_point: ""
   preview_only: false
 links:
@@ -26,8 +26,7 @@ publication_types:
 - "3"
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 tags:
 - Source Themes
 title: An example preprint / working paper
